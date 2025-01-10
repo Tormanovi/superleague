@@ -1,0 +1,40 @@
+.team-selection {
+    text-align: center;
+    padding: 2rem;
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .teams-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      justify-items: center;
+    }
+  
+    .team-card {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+  
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
+  
+      p {
+        margin-top: 0.5rem;
+        font-weight: bold;
+      }
+    }
+  }
+  

@@ -1,0 +1,84 @@
+{
+  "teams": [
+    {
+      "name": "Arsenal",
+      "badge_url": "https://crests.football-data.org/57.svg"
+    },
+    {
+      "name": "Chelsea",
+      "badge_url": "https://crests.football-data.org/61.svg"
+    },
+    {
+      "name": "Liverpool",
+      "badge_url": "https://crests.football-data.org/64.svg"
+    },
+    {
+      "name": "Manchester City",
+      "badge_url": "https://crests.football-data.org/65.svg"
+    },
+    {
+      "name": "Manchester United",
+      "badge_url": "https://crests.football-data.org/66.svg"
+    },
+    {
+      "name": "Tottenham Hotspur",
+      "badge_url": "https://crests.football-data.org/73.svg"
+    },
+    {
+      "name": "Borussia Dortmund",
+      "badge_url": "https://crests.football-data.org/4.svg"
+    },
+    {
+      "name": "Bayern Munich",
+      "badge_url": "https://crests.football-data.org/5.svg"
+    },
+    {
+      "name": "RB Leipzig",
+      "badge_url": "https://crests.football-data.org/721.svg"
+    },
+    {
+      "name": "Paris Saint-Germain",
+      "badge_url": "https://crests.football-data.org/524.svg"
+    },
+    {
+      "name": "Bayer Leverkusen",
+      "badge_url": "https://crests.football-data.org/3.svg"
+    },
+    {
+      "name": "Atletico Madrid",
+      "badge_url": "https://crests.football-data.org/78.svg"
+    },
+    {
+      "name": "FC Barcelona",
+      "badge_url": "https://crests.football-data.org/81.svg"
+    },
+    {
+      "name": "Real Madrid",
+      "badge_url": "https://crests.football-data.org/86.svg"
+    },
+    {
+      "name": "Brighton & Hove Albion",
+      "badge_url": "https://crests.football-data.org/397.svg"
+    },
+    {
+      "name": "Newcastle United",
+      "badge_url": "https://crests.football-data.org/67.svg"
+    },
+    {
+      "name": "Aston Villa",
+      "badge_url": "https://crests.football-data.org/58.svg"
+    },
+    {
+      "name": "AC Milan",
+      "badge_url": "https://crests.football-data.org/98.svg"
+    },
+    {
+      "name": "Juventus",
+      "badge_url": "https://crests.football-data.org/109.svg"
+    },
+    {
+      "name": "Inter Milan",
+      "badge_url": "https://crests.football-data.org/108.svg"
+    }
+  ]
+}

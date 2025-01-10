@@ -1,0 +1,100 @@
+.draft-screen {
+    text-align: center;
+    padding: 2rem;
+  
+    h1,
+    h2,
+    h3 {
+      margin: 1rem 0;
+    }
+  
+    .actions {
+      margin: 1.5rem 0;
+  
+      button {
+        margin: 0 1rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+  
+        &:disabled {
+          cursor: not-allowed;
+          opacity: 0.5;
+        }
+      }
+    }
+  
+    .drafted-teams {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+      .team-draft {
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        width: 300px;
+        background: #f9f9f9;
+  
+        h4 {
+          margin-bottom: 0.5rem;
+          font-size: 1.2rem;
+          font-weight: bold;
+        }
+  
+        .player-box {
+          margin: 0.5rem 0;
+          padding: 0.5rem;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          background: #fff;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+  
+          .player-info {
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 0.3rem;
+          }
+  
+          .pick-info {
+            font-size: 0.8rem;
+            color: #555;
+          }
+        }
+  
+        .position-summary {
+          margin-top: 1rem;
+          font-size: 0.9rem;
+          font-weight: bold;
+          color: #333;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .team-draft {
+    .team-badge {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+  }
+  .filter-container {
+    margin-bottom: 1rem;
+    label {
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+    select {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  }
+  
